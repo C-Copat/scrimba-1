@@ -1,0 +1,19 @@
+.div-container {
+    display:flex;
+    justify-content: space-between;
+    background-color: #21222A;
+    color: #61DAFB;
+    margin: 0px;
+    padding: 31px 26px;
+    height: 20hv;
+}
+
+.div-container > h4 {
+    color: #fff;
+    font-style:normal;
+
+}
+
+.div-container > * {
+    margin:0px;
+}
