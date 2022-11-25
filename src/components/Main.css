@@ -3,6 +3,10 @@
     color: #fff;
     padding: 57px 27px;
     height: 80vh;
+    background-image: url(../images/reactjs-icon2.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 75%;
 
 }
 
@@ -25,6 +29,17 @@ li::before {
     margin-left: -0.7em; /* Also needed for space (tweak if needed) */
     font-size: 30px;
 }
+
+/*
+Another solution would be using the pseudo-element markers:
+
+
+.main--facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+*/
 
 ul {
     display: flex;

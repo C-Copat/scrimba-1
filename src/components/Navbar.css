@@ -1,6 +1,7 @@
 .div-container {
     display:flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #21222A;
     color: #61DAFB;
     margin: 0px;
@@ -11,9 +12,31 @@
 .div-container > h4 {
     color: #fff;
     font-style:normal;
+    font-weight: 600;
+
+}
+
+.div-container > h3 {
+    font-weight: 700;
+    font-size: 22px;
 
 }
 
 .div-container > * {
     margin:0px;
+}
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.flexbox-container > * {
+    margin:0;
+    padding:0
+}
+.flexbox-container > img {
+    margin:0;
+    padding:0 6.68px 0 0;
 }
